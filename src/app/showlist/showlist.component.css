@@ -1,0 +1,58 @@
+.container{
+    width: 840px;
+    margin: 30px auto;
+    padding:20px 30px;
+    background-color: antiquewhite;
+}
+/* table, td, th {
+    border: 1px solid;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 3px;
+  } */
+  .edit
+  {
+
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+        margin: 30px;
+        padding:3px 40px;
+        color: aliceblue;
+        background-color:green;
+
+  }
+  .delete
+  {
+
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        margin: 30px;
+        padding:3px 40px;
+        color: aliceblue;
+        background-color:rgb(230, 14, 14);
+
+  }
+
+  .addstudent
+  {
+
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        margin: 30px;
+        padding:3px 40px;
+        color: aliceblue;
+        background-color:rgb(7, 11, 230);
+
+  }
+  /* li{
+  overflow: auto;
+  float: left;
+  margin-top:5px;
+  padding: 3px;
+  } */

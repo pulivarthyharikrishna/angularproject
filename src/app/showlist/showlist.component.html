@@ -1,0 +1,43 @@
+<div class="bg-light">
+
+    <table class="table table-hover text-black">
+      <thead>
+        <tr>
+            <th>S.no</th>
+            <th>StudentName</th>
+            <th>StudentCellnumber</th>
+            <th>StudentBranch</th>
+            <th>StudentCity</th>
+            <th>Action</th>
+            <th>Action</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let list of StudentDataSet let i=index">
+            <td>{{(obj.page - 1) * obj.size + i + 1}}</td>
+            <td>{{list.name}}</td>
+            <td>{{list.cellnumber}}</td>
+            <td>{{list.branch}}</td>
+            <td>{{list.city}}</td>
+        <td><button class='btn btn-info' (click)="editFun(list._id)">Edit</button></td>
+           <td> <button class="btn btn-danger" (click)="deleteFun(list._id)">Delete</button></td>
+
+        </tr >
+      </tbody>
+    </table>
+    <ul class="pagination pagination-md">
+      <li  class="page-item"*ngFor="let page of obj.pageSizes">
+        <button class="page-link" (click)="onChangePage(page)">{{page}}</button>
+      </li>
+    </ul>
+
+
+    <!-- <div>
+      <pagination-controls
+        previousLable="perv" nextLabel="next" (pageChange)="onChangePage($event)">
+      </pagination-controls>
+    </div> -->
+</div>
+
+<div class=""></div>

@@ -1,0 +1,19 @@
+ <h1> Student Login Form </h1>
+ <div bg="green">
+    <form>
+        <div class="container">
+
+            <input type="email" placeholder="Enter email"[(ngModel)]="signindata.email" [ngModelOptions]="{standalone: true}"><br>
+
+            <input type="password" placeholder="Enter Password" [(ngModel)]="signindata.password" [ngModelOptions]="{standalone: true}"><br>
+            <button (click)="signInFun()">Login</button><br><br>
+
+            Forgot <a routerLink="/forgot"> password? </a>
+            <a routerLink="/register">NewRegister</a>
+        </div>
+    </form>
+</div>
+
+
+
+

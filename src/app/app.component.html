@@ -1,0 +1,11 @@
+
+ <div class="topnav" *ngIf="token">
+
+  <a *ngIf="token" routerLink="./add">AddStudent</a>
+  <a *ngIf="token"routerLink="./list">studentList</a>
+  <button class='btn btn-danger' (click)="logOut()">LogOut</button>
+</div>
+<!-- <a routerLink="/add">AddList</a><br>
+<a routerLink="/list">List</a> -->
+
+<router-outlet></router-outlet>

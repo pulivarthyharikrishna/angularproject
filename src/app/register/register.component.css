@@ -1,0 +1,33 @@
+.form{
+  text-align: center;
+  margin-bottom:50px ;
+
+}
+#name
+{
+width: 220px;
+height: 30px;
+font-size: 20px;
+margin: 5px 0px;
+padding:20px 30px;
+
+}
+#date
+{
+width: 220px;
+height: 30px;
+font-size: 20px;
+margin: 5px 0px;
+padding:20px 30px;
+
+}
+button
+{
+width: 280px;
+height: 35px;
+border: none;
+margin: 30px auto;
+padding:2px 30px;
+color: aliceblue;
+background-color:rgb(85, 235, 85);
+}

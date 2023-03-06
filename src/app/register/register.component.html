@@ -1,0 +1,18 @@
+<div class = "form">
+
+  <div>
+    <select type="text" [(ngModel)]="registerdata.name">
+      <option *ngFor="let level of levels" [ngValue]="level.name ">{{level.name}}</option>
+    </select>
+
+  </div>
+  <div><input type="email" placeholder="Enter email" id="date" [(ngModel)]="registerdata.email"></div>
+  <div><input type="password" placeholder="Enter password"  id="date" [(ngModel)]="registerdata.password"></div>
+
+
+
+
+     <div> <button (click)="registerFun()">Register</button></div>
+
+</div>
+
